@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+}
+h1, h2, h3 {
+    font-size: 140%;
+}
+main:first-letter {
+    font-size: 200%;
+}
+img {
+    float: left;
+}
