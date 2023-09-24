@@ -1,12 +1,19 @@
+/* Styles for the elements */
 body {
     font-family: sans-serif;
 }
 h1, h2, h3 {
     font-size: 140%;
 }
-main:first-letter {
-    font-size: 200%;
-}
+
+/* Styles for the header */
 img {
     float: left;
 }
+
+/* Styles for the main */
+main:first-letter {
+    font-size: 200%;
+}
+
+/* Styles for the footer */
