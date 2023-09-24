@@ -1,19 +1,54 @@
 /* Styles for the elements */
-body {
+* {
     font-family: sans-serif;
 }
-h1, h2, h3 {
-    font-size: 140%;
+h1 {
+    font-size: 240%;
+}
+h2 {
+    font-size: 130%;
+}
+h3 {
+    font-size: 148%;
+}
+h4 {
+    font-size: 110%;
+}
+a:link, a:visited {
+    color: orange;
+    font-weight: bold;
+}
+a:hover, a:focus {
+    color: green;
+}
+li {
+    line-height: 1.5em;
 }
 
 /* Styles for the header */
-img {
+header img {
     float: left;
+}
+header h1{
+    text-indent: 0.6em;
+    color: orange;
+    font-style: italic;
+    text-shadow: .05em .05em 0.05em black;
+}
+header h2 {
+    text-indent: 1.15em;
 }
 
 /* Styles for the main */
-main:first-letter {
-    font-size: 200%;
+main {
+    clear: left;
+}
+main::first-letter {
+    font-size: 250%;
 }
 
 /* Styles for the footer */
+footer {
+    font-size: 90%;
+    text-align: center;
+}
