@@ -23,8 +23,8 @@ a:link, a:visited {
 a:hover, a:focus {
     color: green;
 }
-li {
-    line-height: 1.5em;
+h4+ul {
+    /* line-height: 1.5em; */
 }
 body {
     max-width: 800px;
