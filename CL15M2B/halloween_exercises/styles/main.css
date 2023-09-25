@@ -53,6 +53,7 @@ header h1{
 }
 header h2 {
     text-indent: 1.15em;
+    margin-bottom: .5em;
 }
 header {
     border-bottom: .13em solid black;
