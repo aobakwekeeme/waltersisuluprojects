@@ -1,15 +1,17 @@
 /* Styles for the elements */
 * {
     font-family: sans-serif;
+    font-size: 102%;
 }
 h1 {
     font-size: 240%;
 }
 h2 {
     font-size: 130%;
+    margin-top: -1.2em;
 }
 h3 {
-    font-size: 148%;
+    font-size: 147%;
 }
 h4 {
     font-size: 110%;
@@ -24,6 +26,19 @@ a:hover, a:focus {
 li {
     line-height: 1.5em;
 }
+body {
+    max-width: 800px;
+    background-color: white;
+    border: .13em solid black;
+    box-shadow: 0 0 .6em .4em black;
+    margin-left: auto;
+    margin-right:auto;
+}
+html {
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+    margin-top: -.5em;
+}
 
 /* Styles for the header */
 header img {
@@ -31,24 +46,47 @@ header img {
 }
 header h1{
     text-indent: 0.6em;
-    color: orange;
+    /* color: orange;
     font-style: italic;
-    text-shadow: .05em .05em 0.05em black;
+    text-shadow: .05em .05em 0.05em black; */
+    margin-top: 0em;
 }
 header h2 {
     text-indent: 1.15em;
+}
+header {
+    border-bottom: .13em solid black;
+    background-image: linear-gradient(45deg, white, orange, black);
+    padding-left: .9em;
+    padding-top: 1em;
 }
 
 /* Styles for the main */
 main {
     clear: left;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 main::first-letter {
-    font-size: 250%;
+    font-size: 200%;
 }
+main h3+p, ul, h4+p {
+    margin-top: -1em;
+}
+.p2 {
+    margin-top: -.5em;
+}
+main h4 {
+    margin-top: -.1em;
+}
+
 
 /* Styles for the footer */
 footer {
     font-size: 90%;
     text-align: center;
+    border-top: .15em solid black;
+    background-image: linear-gradient(45deg, black, orange, white);
+    margin-top: 2em;
+    padding-bottom: .1em;
 }
