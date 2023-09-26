@@ -1,7 +1,7 @@
 # Computer Literacy & Web Application II Halloween Assessment
 
 ## Learning Objectives for the Halloween Website Lab Exercises
-###Overall Objectives:
+### Overall Objectives:
 1. To provide students with a hands-on opportunity to apply HTML, CSS, JavaScript, and other
 web development skills in a real-world scenario.
 2. To encourage students to think critically and use their best judgment when coding web pages,
