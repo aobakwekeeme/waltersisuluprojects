@@ -30,7 +30,7 @@ body {
     max-width: 800px;
     background-color: white;
     border: .13em solid black;
-    box-shadow: 0 0 .6em .4em black;
+    box-shadow: 0 0 .8em .5em black;
     margin-left: auto;
     margin-right:auto;
 }
@@ -58,7 +58,7 @@ header h2 {
 }
 header {
     border-bottom: .13em solid black;
-    background-image: linear-gradient(45deg, white, orange, black);
+    background-image: linear-gradient(45deg, white, orange 75%, black);
     padding-left: .9em;
     padding-top: 1em;
 }
@@ -88,7 +88,7 @@ footer {
     font-size: 90%;
     text-align: center;
     border-top: .15em solid black;
-    background-image: linear-gradient(45deg, black, orange, white);
+    background-image: linear-gradient(-135deg, white, orange 75%, black);
     margin-top: 2em;
     padding-bottom: .1em;
 }
