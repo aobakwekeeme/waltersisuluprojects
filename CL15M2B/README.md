@@ -29,7 +29,7 @@
 ### UNIT 2: How to code, test, and validate a web page
 #### Learning Outcomes
 <p>
-  By the end of this unit, students are expected to:
+  By the end of this unit, we were expected to:
 
   - **Use Text Editors for Web Development:** Apply a text editor like VS Code to create, edit, and test HTML and CSS files, demonstrating proficiency in basic web development tools.
   - **Test HTML Documents Locally:** Load and test an HTML document stored on their computer or a local server into a browser, demonstrating understanding of local web development processes.
@@ -43,7 +43,7 @@
 ### UNIT 3 : How to use HTML to structure a web page
 #### Learning Outcomes
 <p>
-  By the end of Unit 3, students are expected to:
+  By the end of Unit 3, we were expected to:
 
   - **Create Structured HTML Pages:** Construct a well-structured HTML web page utilizing semantic elements and other elements covered in this unit.
   - **Code Relative URLs:** Given a website's folder structure, accurately code a relative URL referring to any file within that structure.
@@ -61,7 +61,7 @@
 ### UNIT 4 : How to use CSS to format the elements of a web page
 #### Learning Outcomes
 <p>
-  By the end of this unit, students are expected to:
+  By the end of this unit, we were expected to:
 
   - **Create CSS Stylesheets:** Create a CSS style sheet to format a webpage, given an HTML document, using a range of selectors and properties.
   - **Inspect Styles with Developer Tools:** Utilize Chrome's Developer Tools to inspect styles, given an HTML document with one or more CSS style sheets.
