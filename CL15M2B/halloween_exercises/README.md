@@ -14,12 +14,12 @@ and folders within a web development project.
 2. Familiarize students with the initial project files and their organization.
 3. Understand the purpose of starting HTML and CSS files for the home page.
 
-#### HTML Objectives:
+### HTML Objectives:
 1. Demonstrate proficiency in creating web pages using HTML.
 2. Apply semantic HTML elements appropriately to structure web content.
 3. Integrate multimedia elements such as images, media files, and text files into web pages.
 
-#### CSS Objectives:
+### CSS Objectives:
 1. Utilize CSS to style web pages in line with provided specifications.
 1. Understand the importance of responsive design and implement it using CSS.
 1. Customize layouts and positioning of elements on the web page.
