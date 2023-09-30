@@ -41,6 +41,12 @@ html {
 }
 
 /* Styles for the header */
+header {
+    border-bottom: .13em solid black;
+    background-image: linear-gradient(45deg, white, orange 75%, black);
+    padding-left: .9em;
+    padding-top: 1em;
+}
 header img {
     float: left;
 }
@@ -56,11 +62,13 @@ header h2 {
     margin-bottom: .6em;
     margin-top: -1.3em;
 }
-header {
-    border-bottom: .13em solid black;
-    background-image: linear-gradient(45deg, white, orange 75%, black);
-    padding-left: .9em;
-    padding-top: 1em;
+
+/* Styles for aside */
+aside {
+    clear: left;
+    /* float: left; */
+    width: 160px;
+    margin-top: 3em;
 }
 
 /* Styles for the main */
@@ -85,17 +93,8 @@ main h4 {
 main img {
     margin-top: -1em;
 }
-
-
-/* Styles for section */
-nav {
-    clear: left;
-    /* float: left; */
-    width: 160px;
-    margin-top: 3em;
-}
-.head-3 {
-    margin-bottom: -1em;
+main .p2+p {
+    margin-top: 2em;
 }
 
 /* Styles for the footer */
