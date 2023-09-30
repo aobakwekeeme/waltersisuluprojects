@@ -1,0 +1,54 @@
+/* Styles for the elements */
+* {
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 240%;
+}
+h2 {
+    font-size: 130%;
+}
+h3 {
+    font-size: 147%;
+}
+h4, h5 {
+    font-size: 110%;
+}
+a:link, a:visited {
+    color: orange;
+    font-weight: bold;
+}
+a:hover, a:focus {
+    color: green;
+}
+h4+ul {
+    line-height: 1.5em;
+}
+
+/* Styles for the header */
+header img {
+    float: left;
+}
+header h1{
+    text-indent: 0.6em;
+    color: orange;
+    font-style: italic;
+    text-shadow: .05em .05em 0.05em black;
+}
+header h2 {
+    text-indent: 1.15em;
+}
+
+/* Styles for the main */
+main {
+    clear: left;
+}
+main::first-letter {
+    font-size: 200%;
+}
+
+/* Styles for the footer */
+footer {
+    font-size: 90%;
+    text-align: center;
+}
