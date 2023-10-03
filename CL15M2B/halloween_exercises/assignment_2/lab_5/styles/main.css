@@ -83,7 +83,7 @@ header h2 {
     background-color: black;
     color: white;
 }
-#h_nav a.current {
+#h_nav ul li a.current {
 	color: orange;
 }
 #h_nav a:hover {
@@ -96,7 +96,7 @@ header h2 {
 }
 #h_nav ul ul li {
 	float: none;
-    line-height: 1.3em;
+    line-height: 1.5em;
 }
 #h_nav ul li:hover ul {
 	display: block;
