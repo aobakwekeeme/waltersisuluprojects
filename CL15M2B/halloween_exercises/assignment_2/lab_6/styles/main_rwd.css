@@ -4,10 +4,10 @@
     font-size: 102%;
 }
 h1 {
-    font-size: 240%;
+    font-size: 260%;
 }
 h2 {
-    font-size: 130%;
+    font-size: 135%;
     margin-top: -1.2em;
 }
 h3 {
@@ -31,28 +31,28 @@ body {
     background-color: #ffffff;
     border: .13em solid black;
     box-shadow: 0 0 .8em .5em black;
+    max-width: 60em;
     margin-left: auto;
-    margin-right:auto;
-    max-width: 960px;
+    margin-right: auto;
 }
 html {
     background-image: url("../images/bats.gif");
     background-repeat: repeat;
     margin-top: -.5em;
+    height: auto;
 }
 
 /* Styles for the header */
 header {
     border-bottom: .13em solid black;
     background-image: linear-gradient(45deg, white, orange 75%, black);
-    padding-left: .9em;
-    padding-top: 1em;
+    padding: 1.5em .9em 1.6em .9em;
 }
 header img {
     float: left;
-    min-width: 40px;
+    min-width: 2.5em;
     height: auto;
-    margin-top: -.5em;
+    margin-top: -.4em;
 }
 header h1{
     text-indent: 0.6em;
@@ -99,7 +99,7 @@ header h2 {
 }
 #h_nav ul ul li {
 	float: none;
-    line-height: 1.5em;
+    line-height: 1.4em;
 }
 #h_nav ul li:hover ul {
 	display: block;
@@ -112,9 +112,8 @@ header h2 {
 
 /* Styles for vertical nav */
 #v_nav {
-    clear: left;
-    /* float: left; */
-    width: 160px;
+    float: left;
+    width: 10em;
     margin-top: 3em;
 }
 #v_nav ul {
@@ -135,30 +134,28 @@ header h2 {
     text-decoration: none;
 }
 
-/* Styles for the main */
-main {
-    clear: left;
+/* Styles for the section */
+section {
     margin-left: 10.8em;
     margin-right: 3em;
-    margin-top: -12em;
 }
-main::first-letter {
+section::first-letter {
     font-size: 200%;
 }
-main h3+p, ul, h4+p {
+section h3+p, ul, h4+p {
     margin-top: -1em;
 }
 .p2 {
     margin-top: -.5em;
 }
-main h4 {
+section h4 {
     margin-top: 0.7em;
 }
-main img {
+section img {
     max-width: 20%;
     height: auto;
 }
-main .p2+p {
+section .p2+p {
     margin-top: 2em;
 }
 
@@ -173,9 +170,45 @@ footer {
     padding-bottom: .1em;
 }
 
+/* Style rules for bottom nav */
+#bottom_nav {
+    width: 20.625em;
+    margin-top: 3em;
+    margin-right: auto;
+    margin-left: auto;
+}
+#bottom_nav ul {
+    list-style-type: none;
+}
+#bottom_nav ul li {
+    border: .1em solid #000000;
+    padding: .4em;
+    padding-right: 0;
+    background-color: orange;
+    margin-bottom: -.8em;
+    margin-right: 1.2em;
+    margin-left: -.8em;
+    text-align: center;
+}
+#bottom_nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+/* Hide SlickNav and Bottom Nav for screen with width greater than 667px */
+#mobile_menu {
+    display: none;
+}
+@media only screen and (min-width: 41.75em) {
+    #bottom_nav {
+        display: none;
+    }
+}
+
 /* media query for a maximum screen width of 
 800 pixels */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 50em) {
     html {
         background-image: none;
         font-size: 90%;
@@ -184,22 +217,50 @@ footer {
         box-shadow: none;
     }
 }
-@media only screen and (max-width: 667px) {
+
+/* media query for a maximum screen width of 
+667 pixels */
+@media only screen and (max-width: 41.6875em) {
     #h_nav {
         display: none; 
     }
-    #h_nav {
+    #mobile_menu {
         display: block;
     }
-}/*
-@media only screen and (max-width: 479px) {
-    header h1{
-        font-size: 180%;
-        font-style: bold;
+    #v_nav{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        width: 40em;
+    }
+    section {
+        margin: 2em;
+    }
+    header h1 {
+        font-size: 200%;
+        margin-bottom: .8em;
+    }
+    header h2 {
+        font-size: 125%;
     }
 }
-@media only screen and (max-width: 479px) {
-    header h2 {
-        font-size: 140%;
+
+/* media query for a maximum screen width of 
+479 pixels */
+@media only screen and (max-width: 29.9375em) {
+    header h1 {
+        font-size: 255%;
     }
-} */
+    header h2 {
+        font-size: 150%;
+    }
+    section {
+        font-size: 135%;
+    }
+    section h3 {
+        font-size: 130%;
+    }
+}
+
