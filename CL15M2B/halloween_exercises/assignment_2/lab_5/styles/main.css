@@ -96,7 +96,7 @@ header h2 {
 }
 #h_nav ul ul li {
 	float: none;
-    line-height: 1.5em;
+    line-height: 1.4em;
 }
 #h_nav ul li:hover ul {
 	display: block;
@@ -109,8 +109,7 @@ header h2 {
 
 /* Styles for vertical nav */
 #v_nav {
-    clear: left;
-    /* float: left; */
+    float: left;
     width: 160px;
     margin-top: 3em;
 }
@@ -132,29 +131,27 @@ header h2 {
     text-decoration: none;
 }
 
-/* Styles for the main */
-main {
-    clear: left;
-    margin-left: 10.8em;
+/* Styles for the section */
+section {
+    margin-left: 11em;
     margin-right: 3em;
-    margin-top: -12em;
 }
-main::first-letter {
+section::first-letter {
     font-size: 200%;
 }
-main h3+p, ul, h4+p {
+section h3+p, ul, h4+p {
     margin-top: -1em;
 }
 .p2 {
     margin-top: -.5em;
 }
-main h4 {
+section h4 {
     margin-top: 0.7em;
 }
-main img {
+section img {
     margin-top: -1em;
 }
-main .p2+p {
+section .p2+p {
     margin-top: 2em;
 }
 
