@@ -1,13 +1,9 @@
 /* Styles for the elements */
-* {
-    font-family: sans-serif;
-    font-size: 102%;
-}
 h1 {
     font-size: 260%;
 }
 h2 {
-    font-size: 135%;
+    font-size: 130%;
     margin-top: -1.2em;
 }
 h3 {
@@ -27,6 +23,8 @@ a:hover, a:focus {
     line-height: 1.5em;
 } */
 body {
+    font-family: sans-serif;
+    font-size: 102%;
     width: 800px;
     background-color: #ffffff;
     border: .13em solid black;
@@ -39,7 +37,6 @@ html {
     background-image: url("../images/bats.gif");
     background-repeat: repeat;
     margin-top: -.5em;
-    height: auto;
 }
 
 /* Styles for the header */
@@ -80,6 +77,7 @@ header h2 {
 }
 #h_nav ul li a {
     display: block;
+    width: 160px;
     text-align: center;
     padding: .7em 0 .7em 0;
     text-decoration: none;
@@ -113,8 +111,9 @@ header h2 {
 /* Styles for vertical nav */
 #v_nav {
     float: left;
-    width: 10em;
-    margin-top: 3em;
+    width: 160px;
+    margin-top: 1.6em;
+    height: 100%;
 }
 #v_nav ul {
     list-style-type: none;
@@ -136,7 +135,7 @@ header h2 {
 
 /* Styles for the section */
 section {
-    margin-left: 10.8em;
+    margin-left: 12em;
     margin-right: 3em;
 }
 section::first-letter {
@@ -152,6 +151,7 @@ section h4 {
     margin-top: 0.7em;
 }
 section img {
+    margin-top: -1em;
     max-width: 20%;
     height: auto;
 }
@@ -172,7 +172,7 @@ footer {
 
 /* Style rules for bottom nav */
 #bottom_nav {
-    width: 20.625em;
+    width: 330.96px;
     margin-top: 3em;
     margin-right: auto;
     margin-left: auto;
