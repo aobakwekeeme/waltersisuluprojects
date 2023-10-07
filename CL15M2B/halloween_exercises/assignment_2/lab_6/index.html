@@ -3,12 +3,20 @@
 <html lang="en">
 <head>
 	<title>Halloween Store</title>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<!-- Normalize stylesheet standardize how elements are displayed -->
+	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="stylesheet" href="styles/main.css">
 	<link rel="stylesheet" href="styles/main_rwd.css">
 	<link rel="stylesheet" href="styles/slicknav.css">
-	<link rel="shortcut icon" href="images/favicon.ico">
+	
+	<!-- Shiv script forces older browsers like versions of Internet Explorer before version 9 to recognize 
+	the HTML5 semantic elements and let CSS apply formats to these elements. -->
+	<script src="http://htmlSshiv.googlecode.com/svn/trunk/htmlS.js"> 
+	</script>
 </head>
 
 <body>
@@ -86,7 +94,8 @@
 	<footer>
 		<p>&copy; 2022 Ben Murach</p>
 	</footer>
-	<!-- Script code for the SlickNav plugin -->
+	<!-- Script code for the SlickNav plugin, I did not code it within head section to allow
+	my webpage content to load before this script -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
 	<script type="text/javascript">
