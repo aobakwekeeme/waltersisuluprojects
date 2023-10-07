@@ -117,7 +117,7 @@ header h2 {
     list-style-type: none;
 }
 #v_nav ul li {
-    border: .1em solid #000000;
+    border: .16em solid #000000;
     padding: .4em;
     padding-right: 0;
     background-color: orange;
