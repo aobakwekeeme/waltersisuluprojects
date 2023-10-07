@@ -64,13 +64,10 @@ header h2 {
 }
 
 /* Styles for aside */
-.sidebar ul {
+nav ul {
     float: left;
     width: 160px;
     margin-top: 2em;
-}
-.sidebar li {
-    margin: .2em;
 }
 
 /* Styles for the section */
