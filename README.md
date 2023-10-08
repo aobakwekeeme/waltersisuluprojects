@@ -1,1 +1,1 @@
-# Walter Sisulu University projects
+# School projects
