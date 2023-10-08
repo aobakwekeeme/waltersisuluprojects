@@ -43,7 +43,7 @@ html {
 header {
     border-bottom: .13em solid black;
     background-image: linear-gradient(45deg, white, orange 75%, black);
-    padding: 1.5em .9em 1.6em .9em;
+    padding: 1.7em .9em 1.5em .9em;
 }
 header img {
     float: left;
@@ -119,7 +119,7 @@ header h2 {
     list-style-type: none;
 }
 #v_nav ul li {
-    border: .1em solid #000000;
+    border: .15em solid #000000;
     padding: .4em;
     padding-right: 0;
     background-color: orange;
@@ -136,7 +136,7 @@ header h2 {
 /* Styles for the section */
 section {
     margin-left: 12em;
-    margin-right: 3em;
+    margin-right: 4.4em;
 }
 section::first-letter {
     font-size: 200%;
@@ -181,11 +181,11 @@ footer {
     list-style-type: none;
 }
 #bottom_nav ul li {
-    border: .1em solid #000000;
+    border: .15em solid #000000;
     padding: .4em;
     padding-right: 0;
     background-color: orange;
-    margin-bottom: .8em;
+    margin-bottom: .5em;
     margin-right: 1.2em;
     margin-left: -.8em;
     text-align: center;
@@ -211,10 +211,10 @@ footer {
 @media only screen and (max-width: 50em) {
     html {
         background-image: none;
-        font-size: 90%;
     }
     body {
         box-shadow: none;
+        font-size: 90%;
     }
 }
 
@@ -236,10 +236,10 @@ footer {
         width: 40em;
     }
     section {
-        margin: 2em;
+        margin: 2em 3.5em;
     }
     header h1 {
-        font-size: 200%;
+        font-size: 195%;
         margin-bottom: .8em;
     }
     header h2 {
@@ -257,6 +257,7 @@ footer {
         font-size: 150%;
     }
     section {
+        margin: 2em;
         font-size: 135%;
     }
     section h3 {
