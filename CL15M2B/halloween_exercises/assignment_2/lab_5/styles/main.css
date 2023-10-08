@@ -115,14 +115,15 @@ header h2 {
     list-style-type: none;
 }
 #v_nav ul li {
-    border: .1em solid #000000;
-    padding: .53em;
+    border: .15em solid #000000;
+    /* padding: .53em; */
     background-color: orange;
     margin-bottom: .4em;
-    margin-right: 1.7em;
-    margin-left: -.8em;
+    margin-right: 1.8em;
+    margin-left: -.4em;
 }
 #v_nav ul li a {
+    padding: .5em 0 .5em .3em;
     display: block;
     color: black;
     text-decoration: none;
