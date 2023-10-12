@@ -1,0 +1,165 @@
+/* Style rules for elements */
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #069ff7;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #069ff7;
+    border-style: dashed solid;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+/* Style rules for the header */
+header {
+    background-image: url("../images/about_me-background.jpg");
+    background-size: cover;
+}
+header img {
+    display: block;
+    max-width: 6em;
+    max-height: 6em;
+    margin: auto;
+}
+header p {
+    font-size: 25pt;
+    color: #000000;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+/* Style rules for section */
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Style rules for the table section */
+table {
+    width: 80%;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.lecture {
+    background-color: #1f1a1a2f;
+    color: rgb(0, 0, 0);
+}
+.tutorial {
+    background-color: #eee7e7;
+    color: rgb(0, 0, 0);
+}
+.time {
+    font-weight: bold;
+}
+
+/* Styles rules for skills section */
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+/* Style rules for the form section */
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.button {
+    background-color: #9fa5a5;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+}
+.button:hover, .button:focus {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+/* Style rules for the footer */
+footer {
+    text-align: center;
+}
+footer img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+footer a {
+    text-decoration: none;
+}
+footer img:hover, footer img:focus {
+    opacity: 0.8;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
